@@ -1,17 +1,4 @@
 import streamlit as st
-import os
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from pathlib import Path
-import yaml
-import shutil
-import cv2
-from PIL import Image
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 from streamlit_mermaid import st_mermaid
 
 st.set_page_config(
