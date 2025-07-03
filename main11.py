@@ -826,7 +826,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-!pip install streamlit opencv-python pandas numpy matplotlib seaborn scikit-learn imbalanced-learn plotly pillow pyyaml
 
 import os
 import yaml
@@ -2439,7 +2438,3 @@ if __name__ == "__main__":
 
 import subprocess
 subprocess.run(["streamlit", "run", "wildlife_app.py"])
-
-!pip install streamlit
-
-!pip install streamlit-mermaid
